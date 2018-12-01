@@ -7,7 +7,7 @@
 int main()
 {
 	DrvMultiInstal::CDrvInstallFunc::AddDriver();
-	printf("%c\n", getchar());
+	printf("Enter a chacter to exit! %c\n", getchar());
 	return 0;
 }
 
